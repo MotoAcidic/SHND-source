@@ -26,7 +26,6 @@ echo VPS Server prerequisites installed.
 cd
 cd sudo chmod -R 755 SHND-source
 cd SHND-source/depends
-cd depends
 make HOST=x86_64-w64-mingw32
 cd ..
 ./autogen.sh
