@@ -14,9 +14,9 @@ source ./specs.sh
 ###################
 # Install Depends #
 ###################
-DEPENDS_PATH="SHND-source/compile/Depends/"
-cd
-cd $DEPENDS_PATH
+cd ../../../
+cd Depends
+#cd $DEPENDS_PATH
 bash WindowsDepends.sh
 clear
 echo VPS Server prerequisites installed.
@@ -25,9 +25,8 @@ echo VPS Server prerequisites installed.
 ####################
 # Compile the Coin #
 ####################
-cd
-cd sudo chmod -R 755 SHND-source
-cd SHND-source/depends
+cd ../../
+cd depends
 make HOST=x86_64-w64-mingw32
 cd ..
 ./autogen.sh

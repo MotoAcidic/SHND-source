@@ -12,13 +12,12 @@ NC='\033[0m' # No Color
 ###################
 # Install Depends #
 ###################
-DEPENDS_PATH="SHND-source/compile/Depends/"
-cd
-cd $DEPENDS_PATH
+cd ../../../
+cd Depends
+#cd $DEPENDS_PATH
 bash WindowsDepends.sh
 clear
 echo VPS Server prerequisites installed.
-
 
 ####################
 # Compile the Coin #
