@@ -25,9 +25,7 @@ echo VPS Server prerequisites installed.
 ####################
 cd
 cd sudo chmod -R 755 SHND-source
-cd SHND-source/depends
-make HOST=x86_64-w64-mingw32
-cd ..
+cd SHND-source
 ./autogen.sh
 CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/
 make
