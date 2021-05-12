@@ -32,8 +32,13 @@ case $CHOICE in
         cd 
         cd SHND-source/compile/platform/64/
         bash 64.sh
+        ;;
 
         2)	
         cd 
         cd SHND-source/compile/platform/32/
         bash 32.sh
+        exit
+		;;
+esac
+fi
