@@ -24,21 +24,18 @@ CHOICE=$(whiptail --clear\
 clear
 
 case $CHOICE in
-        0)  # Exit
-		exit	
+        1) # 64bit
+		cd 64
+		bash 64.sh
 		;;
 
-        1)	# 64bit
-        cd 
-        cd SHND-source/compile/platform/win/64
-        bash 64.sh
-        ;;
+		2) # 32bit
+		cd 32
+		bash 32.sh
+		;;
 
-        2)	# 32bit
-        cd 
-        cd SHND-source/compile/platform/win/32/
-        bash 32.sh
-        exit
+		0) # Exit
+		Exit
 		;;
 esac
 fi
