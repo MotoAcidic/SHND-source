@@ -23,6 +23,8 @@ sudo apt-get install -y libcurl4-openssl-dev pkg-config -y
 sudo apt-get install -y libsasl2-dev -y
 sudo apt install libqt5svg5-dev -y
 sudo apt-get install -y libsodium-dev -y
+sudo apt-get install gettext -y
+sudo apt install python3.7 -y
 clear
 
 echo -e "Checking if swap space is needed."
