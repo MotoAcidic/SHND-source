@@ -26,12 +26,12 @@ clear
 case $CHOICE in
         1) # 64bit
 		cd 64
-		bash 64.sh
+		bash ./64.sh
 		;;
 
 		2) # 32bit
 		cd 32
-		bash 32.sh
+		bash ./32.sh
 		;;
 
 		0) # Exit
