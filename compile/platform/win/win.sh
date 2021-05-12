@@ -59,6 +59,7 @@ cd ..
 ./autogen.sh
 CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/
 make
+;;
 
 echo "Open up Winscp and connect to you vps that you compile this with. The location of the exe file is located 
 	  CoinCompiled/src/qt/    The exe file will be in the qt folder and has already been striped.
@@ -99,9 +100,8 @@ cd ..
 ./autogen.sh
 CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/
 make
-
+;;
 echo "Open up Winscp and connect to you vps that you compile this with. The location of the exe file is located 
 	  CoinCompiled/src/qt/    The exe file will be in the qt folder and has already been striped.
 	  If you need to install winscp you can get it here: https://winscp.net/eng/index.php"
-        ;;
 esac
