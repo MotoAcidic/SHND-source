@@ -13,7 +13,6 @@ NC='\033[0m' # No Color
 # Install Depends #
 ###################
 DEPENDS_PATH="SHND-source/compile/Depends/"
-COIN_DEPENDS="SHND-source/depends/"
 cd
 cd $DEPENDS_PATH
 bash WindowsDepends.sh
@@ -24,8 +23,8 @@ echo VPS Server prerequisites installed.
 ####################
 # Compile the Coin #
 ####################
-cd
-cd $COIN_DEPENDS
+cd ../../
+cd depends
 sudo make HOST=x86_64-w64-mingw32
 cd ..
 ./autogen.sh
