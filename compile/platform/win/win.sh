@@ -21,22 +21,22 @@ CHOICE=$(whiptail --clear\
                 $HEIGHT $WIDTH $CHOICE_HEIGHT \
                 "${OPTIONS[@]}" \
                 2>&1 >/dev/tty)
-
 clear
+
 case $CHOICE in
         0)  # Exit
 		exit	
 		;;
 
-        1)	
+        1)	# 64bit
         cd 
-        cd SHND-source/compile/platform/64/
+        cd SHND-source/compile/platform/win/64
         bash 64.sh
         ;;
 
-        2)	
+        2)	# 32bit
         cd 
-        cd SHND-source/compile/platform/32/
+        cd SHND-source/compile/platform/win/32/
         bash 32.sh
         exit
 		;;
