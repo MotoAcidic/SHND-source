@@ -434,7 +434,7 @@ macx:HEADERS += src/qt/macdockiconhandler.h src/qt/macnotificationhandler.h
 macx:OBJECTIVE_SOURCES += src/qt/macdockiconhandler.mm src/qt/macnotificationhandler.mm
 macx:LIBS += -framework Foundation -framework ApplicationServices -framework AppKit
 macx:DEFINES += BOOST_NO_CXX11_SCOPED_ENUMS MAC_OSX MSG_NOSIGNAL=0
-macx:ICON = src/qt/res/icons/stronghands.icns
+macx:ICON = src/qt/res/icons/Stronghands.icns
 macx:QMAKE_CFLAGS_THREAD += -pthread
 macx:QMAKE_LFLAGS_THREAD += -pthread
 macx:QMAKE_CXXFLAGS_THREAD += -pthread

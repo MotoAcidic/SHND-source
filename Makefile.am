@@ -12,7 +12,7 @@ OSX_APP=Stronghands-Qt.app
 OSX_DMG=Stronghands-Qt.dmg
 OSX_DEPLOY_SCRIPT=$(top_srcdir)/contrib/macdeploy/macdeployqtplus
 OSX_FANCY_PLIST=$(top_srcdir)/contrib/macdeploy/fancy.plist
-OSX_INSTALLER_ICONS=$(top_srcdir)/src/qt/res/icons/stronghands.icns
+OSX_INSTALLER_ICONS=$(top_srcdir)/src/qt/res/icons/Stronghands.icns
 OSX_PLIST=$(top_srcdir)/share/qt/Info.plist #not installed
 OSX_QT_TRANSLATIONS = da,de,es,hu,ru,uk,zh_CN,zh_TW
 
