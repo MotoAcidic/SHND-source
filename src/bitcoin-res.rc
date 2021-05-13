@@ -13,24 +13,24 @@ PRODUCTVERSION  VER_PRODUCTVERSION
 FILEOS          VOS_NT_WINDOWS32
 FILETYPE        VFT_APP
 BEGIN
-    BLOCK "StringFileInfo"
-    BEGIN
-        BLOCK "040904E4" // U.S. English - multilingual (hex)
-        BEGIN
-            VALUE "CompanyName",        "Stronghands"
-            VALUE "FileDescription",    "Stronghandsd (OSS daemon/client for Stronghands)"
-            VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "stronghandsd"
-            VALUE "LegalCopyright",     COPYRIGHT_STR
-            VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "stronghandsd.exe"
-            VALUE "ProductName",        "Stronghandsd"
-            VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
-        END
-    END
+BLOCK "StringFileInfo"
+BEGIN
+BLOCK "040904E4" // U.S. English - multilingual (hex)
+BEGIN
+VALUE "CompanyName", "Stronghands"
+VALUE "FileDescription", "Stronghandsd (OSS daemon/client for Stronghands)"
+VALUE "FileVersion", VER_FILEVERSION_STR
+VALUE "InternalName", "stronghandsd"
+VALUE "LegalCopyright", COPYRIGHT_STR
+VALUE "LegalTrademarks1", "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
+VALUE "OriginalFilename", "stronghandsd.exe"
+VALUE "ProductName", "Stronghandsd"
+VALUE "ProductVersion", VER_PRODUCTVERSION_STR
+END
+END
 
-    BLOCK "VarFileInfo"
-    BEGIN
-        VALUE "Translation", 0x0, 1252 // language neutral - multilingual (decimal)
-    END
+BLOCK "VarFileInfo"
+BEGIN
+VALUE "Translation", 0x0, 1252 // language neutral - multilingual (decimal)
+END
 END
