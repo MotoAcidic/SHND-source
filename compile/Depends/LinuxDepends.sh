@@ -25,6 +25,12 @@ sudo apt install libqt5svg5-dev -y
 sudo apt-get install -y libsodium-dev -y
 sudo apt-get install gettext -y
 sudo apt install python3.7 -y
+
+sudo apt-get install -y -qq autoconf build-essential pkg-config libssl-dev libboost-all-dev
+sudo apt-get install -y -qq miniupnpc libminiupnpc-dev gettext
+#for gui
+sudo apt-get install -y -qq qtbase5-dev qttools5-dev-tools
+sudo apt-get install -y -qq libdb++-dev
 clear
 
 echo -e "Checking if swap space is needed."

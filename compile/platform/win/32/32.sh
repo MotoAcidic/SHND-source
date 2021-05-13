@@ -14,7 +14,7 @@ source ./specs.sh
 ###################
 # Install Depends #
 ###################
-cd ../../../
+cd ../../
 cd Depends
 #cd $DEPENDS_PATH
 bash WindowsDepends.sh
@@ -25,7 +25,7 @@ echo VPS Server prerequisites installed.
 ####################
 # Compile the Coin #
 ####################
-cd ../../
+cd ../../../
 cd depends
 make HOST=x86_64-w64-mingw32
 cd ..

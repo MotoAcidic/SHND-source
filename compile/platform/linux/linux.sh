@@ -12,7 +12,7 @@ NC='\033[0m' # No Color
 ###################
 # Install Depends #
 ###################
-cd ../../../
+cd ../../
 cd Depends
 #cd $DEPENDS_PATH
 bash LinuxDepends.sh
@@ -22,7 +22,7 @@ echo VPS Server prerequisites installed.
 ####################
 # Compile the Coin #
 ####################
-cd ../../
+cd ../../../
 cd depends
 ./autogen.sh
 ./configure --disable-gui-tests --disable-shared --disable-tests --disable-bench --with-unsupported-ssl --with-libressl --with-gui=qt5

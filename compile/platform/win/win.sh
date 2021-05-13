@@ -4,8 +4,8 @@
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=6
-BACKTITLE="WindowsCompile Wizard"
-TITLE="WindowsCompile Setup"
+BACKTITLE="SHND WindowsCompile Wizard"
+TITLE="SHND WindowsCompile Setup"
 MENU="Choose either 64bit or 32bit:"
 
 OPTIONS=(1 "Windows 64"

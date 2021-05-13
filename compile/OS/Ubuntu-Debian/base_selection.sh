@@ -4,8 +4,8 @@
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=6
-BACKTITLE="Node Install Setup Wizard"
-TITLE="Node Install Setup"
+BACKTITLE="SHND Compile Wizard"
+TITLE="SHND Compile Wizard"
 MENU="Choose one of the following bases to compile from:"
 
 OPTIONS=(1 "Compile Windows"
@@ -29,14 +29,14 @@ case $CHOICE in
 		;;
 
         1)	# Windows compile
-		cd
-		cd SHND-source/compile/platform/win/
+		cd ../../
+		cd platform/win/
 		bash win.sh
         ;; 
 
 		2)	# Linux Compile
-		cd
-		cd SHND-source/compile/platform/linux/
+		cd ../../
+		cd platform/linux/
 		bash linux.sh
         ;;
 
