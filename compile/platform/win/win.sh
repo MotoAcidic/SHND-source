@@ -10,6 +10,7 @@ MENU="Choose either 64bit or 32bit:"
 
 OPTIONS=(1 "Windows 64"
 		 2 "Windows 32"
+		 3 "Go back to OS selection menu"
 		 0 "Exit Script"
 )
 
@@ -38,6 +39,7 @@ case $CHOICE in
 		cd ../../
 		cd OS/Ubuntu-Debian/
 		bash ./base_selection.sh
+		;;
 
 		0) # Exit
 		Exit
