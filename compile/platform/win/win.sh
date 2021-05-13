@@ -33,6 +33,11 @@ case $CHOICE in
 		cd 32
 		bash ./32.sh
 		;;
+		
+		3) # Go back to OS selection menu
+		cd ../../
+		cd OS/Ubuntu-Debian/
+		bash ./base_selection.sh
 
 		0) # Exit
 		Exit
