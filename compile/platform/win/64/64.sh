@@ -27,7 +27,7 @@ cd depends
 sudo make HOST=x86_64-w64-mingw32
 cd ..
 ./autogen.sh
-CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/
+CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --without-miniupnpc --prefix=/
 make
 
 echo "Open up Winscp and connect to you vps that you compile this with. The location of the exe file is located 
